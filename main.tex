@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb} 
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{verbatim}
+\author{Jean-Philippe Collette}
+\title{Synthèse Marketing}
+\usepackage{color}
+\definecolor{orange}{rgb}{1,.5,0}
+
+\newcommand{\n}{~\\}
+\newcommand{\dessin}[1]{\begin{center}\includegraphics[scale=0.9]{images/#1.png}\end{center}}
+\newcommand{\dessinS}[2]{\begin{center}\includegraphics[scale=#2]{images/#1.png}\end{center}}
+
+\makeindex
+\begin{document}
+\maketitle
+\tableofcontents
+
+\part{Compréhension du comportement du client}
+
+\include{chapter1}
+\include{chapter2}
+	
+\part{Élaboration de la stratégie marketing}
+
+\dessin{58}
+
+L'élaboration de la stratégie marketing se déroule en 3 étapes d'analyse et 2 de décision
+
+\begin{enumerate}
+	\item Analyse par segmentation
+	\item Analyse de l'attractivité des segments
+	\item Analyse de la compétitivité des segments
+	\item Choix de positionnement et de ciblage
+	\item Choix d'une stratégie Marketing
+\end{enumerate}
+
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\include{chapter6}
+\include{chapter7}
+\include{chapter8}
+			
+\part{Marketing opérationnel}
+
+\include{chapter9}
+\include{chapter10}
+
+\end{document}
